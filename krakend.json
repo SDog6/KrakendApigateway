@@ -98,7 +98,7 @@
       "output_encoding": "json",
       "backend": [
         {
-          "url_pattern": "/SingleRecipe",
+          "url_pattern": "/SingleRecipe/{{ .id }}",
           "encoding": "json",
           "sd": "static",
           "method": "GET",
