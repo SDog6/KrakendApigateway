@@ -62,6 +62,13 @@
       "endpoint": "/CraeteRecipe",
       "method": "POST",
       "output_encoding": "json",
+      "extra_config": {
+        "auth/validator": {
+            "alg": "HS256",
+            "jwk_url": "https://www.jsonkeeper.com/b/3LO1",
+            "cache": true
+         }
+       },
       "backend": [
         {
           "url_pattern": "/CraeteRecipe",
@@ -98,9 +105,8 @@
       "output_encoding": "json",
       "backend": [
         {
-          "url_pattern": "/SingleRecipe/{id}",
+          "url_pattern": "/{id}",
           "encoding": "json",
-          "sd": "static",
           "method": "GET",
           "host": [
             "10.245.115.102"
