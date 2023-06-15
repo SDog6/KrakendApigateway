@@ -55,6 +55,95 @@
           ],
           "disable_host_sanitize": false
         }
+      ],
+      "input_query_strings": []
+    },
+    {
+      "endpoint": "/CraeteRecipe",
+      "method": "POST",
+      "output_encoding": "json",
+      "backend": [
+        {
+          "url_pattern": "/CraeteRecipe",
+          "encoding": "json",
+          "sd": "static",
+          "method": "POST",
+          "host": [
+            "10.245.115.102"
+          ],
+          "disable_host_sanitize": false
+        }
+      ]
+    },
+    {
+      "endpoint": "/Recipies",
+      "method": "GET",
+      "output_encoding": "json",
+      "backend": [
+        {
+          "url_pattern": "/Recipies",
+          "encoding": "json",
+          "sd": "static",
+          "method": "GET",
+          "host": [
+            "10.245.115.102"
+          ],
+          "disable_host_sanitize": false
+        }
+      ]
+    },
+    {
+      "endpoint": "/SingleRecipe",
+      "method": "GET",
+      "output_encoding": "json",
+      "backend": [
+        {
+          "url_pattern": "/SingleRecipe",
+          "encoding": "json",
+          "sd": "static",
+          "method": "GET",
+          "host": [
+            "10.245.115.102"
+          ],
+          "disable_host_sanitize": false
+        }
+      ],
+      "input_query_strings": [
+        "id"
+      ]
+    },
+    {
+      "endpoint": "/register",
+      "method": "POST",
+      "output_encoding": "json",
+      "backend": [
+        {
+          "url_pattern": "/register",
+          "encoding": "json",
+          "sd": "static",
+          "method": "POST",
+          "host": [
+            "10.245.29.33"
+          ],
+          "disable_host_sanitize": false
+        }
+      ]
+    },
+    {
+      "endpoint": "/login",
+      "method": "POST",
+      "output_encoding": "json",
+      "backend": [
+        {
+          "url_pattern": "/login",
+          "encoding": "json",
+          "sd": "static",
+          "method": "POST",
+          "host": [
+            "10.245.29.33"
+          ],
+          "disable_host_sanitize": false
+        }
       ]
     }
   ]
