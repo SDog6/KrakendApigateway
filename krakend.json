@@ -65,7 +65,7 @@
       "extra_config": {
         "auth/validator": {
             "alg": "HS256",
-            "jwk_url": "https://www.jsonkeeper.com/b/3LO1",
+            "jwk_url": "https://jsonkeeper.com/b/SESZ",
             "cache": true
          }
        },
