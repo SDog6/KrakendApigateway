@@ -93,12 +93,12 @@
       ]
     },
     {
-      "endpoint": "/SingleRecipe",
+      "endpoint": "/SingleRecipe/{id}",
       "method": "GET",
       "output_encoding": "json",
       "backend": [
         {
-          "url_pattern": "/SingleRecipe/{{ .id }}",
+          "url_pattern": "/SingleRecipe/{id}",
           "encoding": "json",
           "sd": "static",
           "method": "GET",
