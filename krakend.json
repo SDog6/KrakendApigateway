@@ -103,12 +103,12 @@
       ]
     },
     {
-      "endpoint": "/SingleRecipe/{id}",
+      "endpoint": "/SingleRecipe",
       "method": "GET",
       "output_encoding": "json",
       "backend": [
         {
-          "url_pattern": "/{id}",
+          "url_pattern": "/SingleRecipe",
           "encoding": "json",
           "method": "GET",
           "host": [
@@ -116,9 +116,6 @@
           ],
           "disable_host_sanitize": false
         }
-      ],
-      "input_query_strings": [
-        "id"
       ]
     },
     {
